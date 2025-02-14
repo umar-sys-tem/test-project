@@ -40,7 +40,7 @@ def calculator():
             elif choice == '4':
                 print(f"Result: {divide(num1, num2)}")
         else:
-            print("Invalid input. Please enter a valid choice.")
+            print("Invalid! Please enter a valid choice.")
         
         next_calculation = input("Do you want to perform another calculation? (y/n): ")
         if next_calculation.lower() != 'y':
