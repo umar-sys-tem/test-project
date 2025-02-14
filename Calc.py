@@ -42,8 +42,8 @@ def calculator():
         else:
             print("Invalid input. Please enter a valid choice.")
         
-        next_calculation = input("Do you want to perform another calculation? (yes/no): ")
-        if next_calculation.lower() != 'yes':
+        next_calculation = input("Do you want to perform another calculation? (y/n): ")
+        if next_calculation.lower() != 'y':
             print("Exiting calculator. Goodbye!")
             break
 
