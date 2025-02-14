@@ -16,5 +16,5 @@ def get_random_quote():
     return random.choice(quotes)
 
 if __name__ == "__main__":
-    print("Here's your motivational quote:")
+    print("Motivational quote for you:")
     print(get_random_quote())
