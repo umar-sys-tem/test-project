@@ -1,11 +1,11 @@
 import random
 
 def number_guessing_game():
-    number_to_guess = random.randint(1, 100)
+    number_to_guess = random.randint(1, 50)
     attempts = 0
     
     print("Welcome to the Number Guessing Game!")
-    print("I've picked a number between 1 and 100. Can you guess it?")
+    print("I've picked a number between 1 and 50. Can you guess it?")
     
     while True:
         try:
